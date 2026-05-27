@@ -29,6 +29,7 @@ You can also edit the existing Item objects from the "EditItem" panel. A list of
 ![Edit Items](src/images/EditItemPage.png)
 ### Check Orders
 Finally, you can check the orders currently pending in the "CheckOrders" panel. A list of the "unfulfilled" "Order" objects will be deserialized from the "/record/order.ser" and displayed. Each "OrderItem" contains the name, ImageIcon, and the address of the order. Upon clicking the "Set Fulfilled" button, the order object will be marked as 'fulfilled' and wouldn't appear the next tie you open the "CheckOrders" panel.
+![Check Orders](src/images/CheckOrders.png)
 ## It Uses the FlatLaf, Instead of the Default Swing Look and Feel
 If you're merely copying the source code and not the whole repo, then make sure that you have the FlatLaf's .jar file in your project's dependencies.
 You can also change the theme of the "Doodie" from Dark to Light (or any other for that matter) by changing the FlatLaf's theme at the very beginning of the main method (that is inside the main/MainWindow.java).
